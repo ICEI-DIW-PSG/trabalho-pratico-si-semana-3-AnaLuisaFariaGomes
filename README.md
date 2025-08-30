@@ -10,17 +10,20 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Ana Luísa Faria Gomes
+- Matricula: 899314
+- Proposta de projeto escolhida: 1. Pessoas e Produções
+- Breve descrição sobre seu projeto: 
+Este projeto é uma fan page dedicada ao autor Rick Riordan, criada a partir da proposta “Pessoas e Produções”, em que a entidade principal é o autor e a entidade secundária são suas obras literárias.
 
+A aplicação foi desenvolvida em HTML e CSS, utilizando tags semânticas e estilização responsiva. A página inicial apresenta informações biográficas, além de seções para livros, personagens e adaptações, oferecendo uma navegação simples e organizada.
 
 ## Print do(s) wireframe(s) criado
-
-<<  COLOQUE A IMAGEM AQUI >>
-
+![Print tela esboço](esboco.jpg)
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print tela inicial](print_1.png)
+![Print tela inicial](print_2.png)
+![Print tela cadastro - form](print_3.png)
+![Print tela livros](print_4.png)

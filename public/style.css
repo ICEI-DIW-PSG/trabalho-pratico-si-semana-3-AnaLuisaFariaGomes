@@ -1,3 +1,228 @@
-body {
-    background-color: aquamarine;
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: #003366;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* BOTÃO CADASTRO HEADER */
+.btn-cadastro {
+    background-color: #ffcc00;
+    color: #003366;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0); 
+    transition: background-color 0.3s ease, transform 0.2s ease; /*deixa transição mai suave*/
+}
+
+.btn-cadastro:hover {
+    background-color: #e6b800;
+}
+
+/* PÁGINA CADASTRO */
+.main-cadastro {
+  background-image: url('img_fundo.png');
+  background-size: cover;         /* Ocupa toda a área */
+  background-position: center;    /* Centraliza a imagem */
+  min-height: 100vh;              /* Dá altura suficiente para mostrar tudo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-cadastro {
+    position: relative;
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0);
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+.form-cadastro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.cadastro label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.cadastro input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.btn-enviar {
+    display: block;
+    width: 100%;
+   padding: 12px;
+    background-color: #0055aa;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #0077cc;
+  transform: scale(1.02);
+}
+
+/* LAYOUT PRINCIPAL */
+.container {
+    display: flex;
+    flex: 1;
+}
+
+/* MENU - ASIDE */
+aside {
+    width: 10%;
+    padding: 20px;
+    background-color: #004080;
+    text-align: center;
+    overflow: hidden;
+}
+
+.imagem-centralizada {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav.menu a {
+    display: block;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;  /*deixa transição mai suave*/
+    text-align: left;
+}
+
+.menu a:hover {
+    background-color: #0055aa;
+}
+
+/* MAIN */
+main {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+/* PÁGINA INDEX */
+.destaque {
+    display: block;
+    width: 100%;
+    margin: auto; 
+    border-radius: 8px;
+}
+
+/* biografia */
+.bio-foto {
+    max-width: 200px;
+    height: auto;
+}
+
+.biografia {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /*quebra de linha, se precisar*/
+}
+
+.article-bio {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.biografia h2 {
+    text-indent: 0%;
+    color: #003366;
+    margin-bottom: 10px;
+} 
+
+/* PÁGINA LIVROS */
+.livros {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /*quebra de linha, se precisar*/
+    padding: 20px;
+}
+
+.article-book {
+    background-color: lightblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease; /* transição mais suave*/
+}
+
+.article-book:hover {
+    transform: translateY(-5px); /* move ao passar o mause*/
+}
+
+.foto-livro img {
+    width: 50%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.article-book h3 {
+    color: #003366;
+    margin-bottom: 8px;
+}
+
+.article-book p {
+    color: #333;
+    font-size: 0.95rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: #003366;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
